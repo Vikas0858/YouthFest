@@ -1,0 +1,28 @@
+[
+    {
+     "id": 1,
+     "question": "How to register for the event?",
+     "answer": "Go on events page of the website and click on the register button."
+    },
+    {
+     "id": 2,
+     "question": "Can we take part in multiple events?",
+     "answer": "Yes, you can take part in multiple events given their time does not coincides."
+    },
+    {
+     "id": 3,
+     "question": "Can anyone take part in the youthfest?",
+     "answer": "Yes, anyone from MNIT as well as other college students can take part in Youthfest "
+    },
+    {
+     "id": 4,
+     "question": "Is there any entry fees?",
+     "answer": "There is no entry fees, however there is registration fees for each event which is specified in the event description respectively "
+    },
+    {
+     "id": 5,
+     "question": "How will I reach the destination?",
+     "answer": "You can reach MNIT Jaipur, JLN Marg using a cab or a bus."
+    }
+   ]
+
