@@ -1,0 +1,8 @@
+.login_container {
+  background: linear-gradient(45deg, #3f212f 0%, #52262f 52.7%, #230d2f 100%);
+  background: url("../public/Group.png");
+  box-shadow: rgb(63 33 47 / 35%) 0px 0px 0px 2000px inset;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

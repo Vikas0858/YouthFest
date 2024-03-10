@@ -1,0 +1,69 @@
+.explore_evnt_container {
+  background: linear-gradient(45deg, #3f212f 0%, #52262f 52.7%, #230d2f 100%);
+  background: url("../../public/Group.png");
+  box-shadow: rgb(63 33 47 / 35%) 0px 0px 0px 2000px inset;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event_name {
+  background: linear-gradient(90deg, #f2bc56 0%, #e17979 50.7%, #787efa 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.event_img {
+  border-radius: 10px;
+}
+
+.event_date_time_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event_secheading {
+  font-weight: 900;
+}
+
+.register_btn_bg {
+  background: linear-gradient(90deg, #dcac6a 0%, #ad70b0 52.2%, #493ccc 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px 2000px inset;
+  width: fit-content;
+  border-radius: 30px;
+  padding: 6px 10px;
+}
+
+.register_btn {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 46px;
+  margin: auto;
+  cursor: pointer;
+  background: linear-gradient(90deg, #dcac6a 0%, #ad70b0 52.2%, #493ccc 100%);
+}
+
+.register_admin {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.card_alert span{
+  color: red;
+}
+.card_alert h3{
+  text-align: center;
+}

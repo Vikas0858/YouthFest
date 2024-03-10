@@ -1,0 +1,90 @@
+.home_sc_cont {
+  background: url("../public/img/sponsorbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.front_screen_cont {
+  display: grid;
+  width: 90vw;
+  margin: auto;
+  /* margin-top: 5px; */
+  padding: 100px 0;
+}
+
+.front_text {
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.register_btn_bg {
+  background: linear-gradient(90deg, #dcac6a 10%, #ad70b0 52.2%, #493ccc 150%);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 2000px inset;
+  width: fit-content;
+  border-radius: 30px;
+  padding: 7px 10px;
+  margin: auto;
+}
+
+.register_btn {
+  text-decoration: none;
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 35px;
+  margin: auto;
+  cursor: pointer;
+  background: linear-gradient(90deg, #dcac6a 0%, #ad70b0 52.2%, #493ccc 100%);
+}
+
+.box {
+  height: 287px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.box1 {
+  background-image: url(../public/homebg/Frame\ 1.svg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box:hover{
+  transform: scale(1.04);
+  box-shadow: 0 8px 20px 0 yellow;
+}
+.box2 {
+  background-image: url(../public/homebg/Frame\ 2.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box3 {
+  background-image: url(../public/homebg/Frame\ 3.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+  .image_container {
+    width: 60vw !important;
+  }
+}

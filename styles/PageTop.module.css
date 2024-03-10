@@ -1,0 +1,29 @@
+.event-cont {
+  background-repeat: no-repeat;
+  background-image: url(/bg.jpeg);
+  background-size: cover;
+  box-shadow: rgb(0 0 0 / 55%) 0px 0px 0px 2000px inset;
+}
+.event_heading {
+  width: 35vw;
+  padding-top: 10%;
+  margin: auto;
+  padding-bottom: 14%;
+}
+
+.event_img_container {
+  width: 100%;
+}
+.team_img {
+  width: 100%;
+  position: static !important;
+}
+@media (max-width: 500px) {
+  .event_heading {
+    width: 65vw;
+  }
+  .event_img_container {
+    width: 80%;
+    margin: auto;
+  }
+}

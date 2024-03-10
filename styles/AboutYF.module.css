@@ -1,0 +1,48 @@
+.abtYF {
+  /* position: relative; */
+  text-align: center;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-image: url("../public/img/abtBG.png");
+
+  padding: 6vw 0;
+  background-size: cover;
+
+  box-shadow: rgb(63 33 47 / 65%) 0px 0px 0px 2000px inset;
+  /* width: 60%; */
+}
+
+/* @media screen and (max-width: 1201px) {
+    .container {
+      padding: 0 50px;
+    }
+  } */
+
+.abtBGimg {
+  position: absolute;
+  right: 22vw;
+}
+
+.abt_yf_heading {
+  background: linear-gradient(90deg, #f2bc56 0%, #e17979 50.7%, #787efa 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Founders Grotesk !important;
+}
+
+.about_yf_txt {
+  font-family: Founders Grotesk !important;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.abtYFtxt {
+  align-self: center;
+  /* position: absolute; */
+  width: 80%;
+  /* margin: 30px auto; */
+  line-height: 1.5;
+}

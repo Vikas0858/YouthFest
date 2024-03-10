@@ -1,0 +1,53 @@
+@media screen and (max-width: 1152px) {
+    .brands{
+        width: 165px;
+        /* display: flex;
+        justify-content: space-between; */
+    }
+  }
+@media screen and (max-width: 1246px) {
+    .abtYFtxt{
+        width: 53%;
+    }
+  }
+@media screen and (max-width: 1296px) {
+    .txt{
+        width: 56%;
+    }
+  }
+@media screen and (max-width: 1084px) {
+    .txt{
+        font-size: 13px;
+        width: 56%;
+    }
+  }
+@media screen and (max-width: 995px) {
+    .brands{
+        width: 142px;
+    }
+    .abtYFtxt{
+        width: 74%;
+    }
+  }
+@media screen and (max-width: 754px) {
+    .brands{
+        width: 122px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .brands{
+        width: 92px;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .brands{
+        width: 131px;
+        margin-left: 3px;
+    }
+    #unvisible_brand1{
+      width: 0;
+    }
+    #unvisible_brand2{
+      width: 0;
+    }
+  }

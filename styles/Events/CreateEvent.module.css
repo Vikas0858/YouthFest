@@ -1,0 +1,156 @@
+#createEvent {
+  /* background: black; */
+  font-size: 12px;
+  z-index: 1000;
+  color: white;
+}
+
+#createEvent,
+#createEvent button,
+#createEvent input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.background {
+  display: flex;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: #363636;
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.screen_body {
+  display: flex;
+}
+
+.screen_body_item {
+  flex: 1;
+  padding: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app_title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-size: 26px;
+}
+
+.app_title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: white;
+}
+
+.app_image {
+  background-color: white;
+  height: 11rem;
+  width: 11rem;
+  margin-top: 25px;
+}
+
+.app_contact {
+  margin-top: auto;
+  font-size: 8px;
+}
+
+.app_form_group {
+  margin-bottom: 15px;
+}
+
+.message {
+  margin-top: 40px;
+}
+.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+.app_form_control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: whitesmoke;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.app_form_control:focus {
+  border-bottom-color: #f5f5f5;
+}
+.app_form_button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.app_form_button:hover {
+  color: grey;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}

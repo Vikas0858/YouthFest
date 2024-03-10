@@ -1,0 +1,143 @@
+.about {
+    margin: 100px 0;
+}
+
+.teamName {
+    margin: 36px 0;
+    font-size: 40px;
+    background: linear-gradient(90deg, #f2bc56 0%, #e17979 51.2%, #787efa 100%);
+    background-size: 24%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile {
+    background: linear-gradient(45deg, #3F212F 0%, #52262F 52.7%, #230D2F 100%);
+    background: url("../public/Group.png");
+    background-position: center;
+    mix-blend-mode: normal;
+    opacity: 0.68;
+    padding: 12px;
+    /* border: 8px; */
+    border-radius: 12px;
+    width: 230px;
+    margin: auto;
+    /* height: 123px; */
+    /* height: 306px; */
+    /* width: fit-content; */
+}
+
+.img {
+    width: -webkit-fill-available;
+}
+
+.profileName {
+    font-size: larger;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #3F212F 0%, #52262F 52.7%, #230D2F 100%);
+    background: url("../public/Group.png");
+    background-position: center;
+    mix-blend-mode: normal;
+    opacity: 0.68;
+    position: relative;
+    z-index: 1;
+    bottom: 72px;
+    width: 75%;
+    height: 40px;
+    margin: auto;
+    border-radius: 26px;
+}
+
+/* .main{
+    display: grid;
+    grid-column-gap: 100px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+} */
+.instagram {
+    margin: auto;
+    margin-left: 12px;
+    color: #E17979;
+}
+
+.linkedin {
+    margin: auto;
+    margin-right: 12px;
+    color: #787EFA;
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        width: 200px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(45deg, #3F212F 0%, #52262F 52.7%, #230D2F 100%);
+        background: url("../public/Group.png");
+        background-position: center;
+        mix-blend-mode: normal;
+        opacity: 0.68;
+        position: relative;
+        z-index: 1;
+        bottom: 60px;
+        width: 75%;
+        height: 40px;
+        margin: auto;
+        border-radius: 26px;
+    }
+
+    .img {
+        width: 201px;
+        height:310px !important;
+        width: -webkit-fill-available;
+
+    }
+
+    .profileName {
+        font-size: 16px;
+    }
+
+    .teamName {
+        background-size: 43%;
+    }
+
+    .teamName {
+        margin: 36px 0;
+        font-size: 40px;
+        background: linear-gradient(90deg, #f2bc56 0%, #e17979 51.2%, #787efa 100%);
+        background-size: 24%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .profile {
+        background: linear-gradient(45deg, #3F212F 0%, #52262F 52.7%, #230D2F 100%);
+        background: url("../public/Group.png");
+        background-position: center;
+        mix-blend-mode: normal;
+        opacity: 0.68;
+        padding: 12px;
+        /* border: 8px; */
+        border-radius: 12px;
+        width: 230px;
+        margin: auto;
+        /* height: 123px; */
+        /* height: 306px; */
+        /* width: fit-content; */
+    }
+
+   
+
+    .profileName {
+        font-size: larger;
+    }
+}

@@ -1,0 +1,282 @@
+.eve_nav {
+  margin-bottom: 2px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 20px purple; /* Adjust the box-shadow properties accordingly */
+}
+
+.evenav_items {
+  margin: auto;
+  margin-top: 85px;
+  margin-bottom: 112px;
+  box-shadow: #3f212f;
+  padding: 4px 35px;
+  /* shadow-md hover:shadow-lg focus:shadow-lg text-success */
+}
+
+.evenavpad {
+  text-decoration: none;
+  color: white;
+}
+
+.event_nav_item {
+  cursor: pointer;
+}
+
+.event_nav_item:hover {
+  color: #f2bc56;
+}
+
+.sports_card_page {
+  margin-bottom: 64px;
+  padding: 0 100px;
+}
+
+.cultural_card_page {
+  margin-bottom: 64px;
+  padding: 0 40px;
+}
+
+.literary_card_page {
+  margin-bottom: 64px;
+  padding: 0 40px;
+}
+
+.card {
+  /* background: linear-gradient(45deg, #3f212f 0%, #52262f 52.7%, #230d2f 100%); */
+  /* background: url("../public/Group.png"); */
+  background-position: center;
+  mix-blend-mode: normal;
+  opacity: 1;
+  /* width: 24rem; */
+  max-height: 42rem;
+  min-height: 42rem;
+  border-radius: 19px;
+  margin-bottom: 36px;
+  margin: auto;
+  padding: 20px;
+  background: #0e1f27;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
+
+.card_image {
+  box-shadow: 0 0 9px white;
+  border-radius: 9px;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+
+.card_date_time {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.card_body {
+  text-align: center;
+  /* margin-bottom: 12px; */
+}
+
+.card_title {
+  color: #cca873;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.card_alert h3 {
+  font-size: 17px;
+  color: white;
+}
+.card_alert span {
+  font-size: 20px;
+  color: red;
+}
+.card_alert {
+  padding: 0 10px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+.card_text {
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  padding: 0 10px;
+  color: #ffba1c;
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  text-align: center;
+}
+
+.card_price_text {
+  margin-top: 10px;
+  padding: 0 10px;
+  color: #787efa;
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.toggle_register {
+  left: 40%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 4px;
+  width: 1.4rem;
+}
+
+.register_btn {
+  text-decoration: none;
+  font-family: "Founders Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffba1c;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    /* background: linear-gradient(45deg, #3f212f 0%, #52262f 52.7%, #230d2f 100%); */
+    /* background: url("../public/Group.png"); */
+    background-position: center;
+    mix-blend-mode: normal;
+    opacity: 1;
+    width: auto;
+     max-height: 44rem; 
+     min-height: 44rem; 
+    border-radius: 19px;
+    margin-bottom: 36px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    background: #0e1f27;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 30px;
+  }
+
+  .card_image {
+    box-shadow: 0 0 9px white;
+    border-radius: 9px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+
+  .card_date_time {
+    color: white;
+    margin-top: 5px;
+  }
+
+  .card_title {
+    color: #cca873;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    font-family: "Canela";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    position: relative;
+    top: -20px;
+  }
+
+  .card_text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: #738623;
+    font-family: "Founders Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    text-align: center;
+    position: relative;
+    top: -20px;
+  }
+
+  .toggle_register {
+    left: 40%;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+  }
+  .eve_nav {
+    margin-bottom: 2px;
+  }
+
+  .evenav_items {
+    margin: auto;
+    margin-top: 85px;
+    margin-bottom: 112px;
+    box-shadow: #3f212f;
+    padding: 4px 35px;
+    /* shadow-md hover:shadow-lg focus:shadow-lg text-success */
+  }
+
+  .evenavpad {
+    text-decoration: none;
+    color: white;
+  }
+
+  .event_nav_item {
+    cursor: pointer;
+  }
+
+  .event_nav_item:hover {
+    color: #f2bc56;
+  }
+
+  .sports_card_page {
+    margin-bottom: 64px;
+    padding: 0 100px;
+  }
+
+  .cultural_card_page {
+    margin-bottom: 64px;
+    padding: 0 40px;
+  }
+
+  .literary_card_page {
+    margin-bottom: 64px;
+    padding: 0 40px;
+  }
+  .card_alert h3 {
+    font-size: 17px;
+    color: white;
+  }
+  .card_alert span {
+    font-size: 20px;
+    color: red;
+  }
+}
